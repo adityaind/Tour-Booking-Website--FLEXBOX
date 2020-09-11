@@ -5,7 +5,7 @@
 }
 
 .search{
-    // background-color: orangered;
+     //background-color: orangered;
     flex: 0 0 40%;
     display: flex;
     align-items: center;
@@ -160,4 +160,46 @@
     color: var(--color-grey-light-4);
     text-align: center;
     padding: 2rem;
+}
+
+//Gallery
+
+.gallery{
+    display: flex;
+    &__photo {
+        width: 100%;
+        display: block; 
+    }
+}
+
+
+.overview{
+    display: flex;
+    // justify-content: space-between;
+    &__heading{
+
+    }
+
+    &__stars{
+        margin-right: auto;
+    }
+
+    &__icon-star,
+    &__icon-location{
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: var(--color-primary)
+    }
+
+    &__location{
+      
+    }
+    &__rating-count{
+
+    }
+
+    &__rating-average{
+
+    }
+
 }
