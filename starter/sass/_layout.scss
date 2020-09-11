@@ -10,7 +10,7 @@
     font-size: 1.4rem;
     height: 7rem;
     background-color: #fff;
-    border-bottom: var(--color-grey-light-2);
+    border-bottom: 2px solid var(--color-grey-light-2);
 
     display: flex;
     justify-content: space-between;
@@ -31,4 +31,5 @@
     flex: 1;
     //below height is only given for testing purpose, should be removed later. 
     height: 80rem;
+    border-bottom: 2px solid var(--color-grey-light-2);
 }
