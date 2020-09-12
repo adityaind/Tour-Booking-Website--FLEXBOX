@@ -25,7 +25,9 @@ Grey dark 3: #999
   --color-grey-light-4: #ccc;
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
-  --color-grey-dark-3: #999; }
+  --color-grey-dark-3: #999;
+  --line: 1px solid var(--color-grey-light-2);
+  --shadow: 0 2rem 5rem rgba(0,0,0,.1); }
 
 * {
   margin: 0;
@@ -79,8 +81,22 @@ body {
 .hotel-view {
   background-color: #fff;
   flex: 1;
-  height: 80rem;
   border-bottom: 2px solid var(--color-grey-light-2); }
+  .hotel-view .detail {
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--line); }
+  .hotel-view .description {
+    font-size: 1.4rem;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+    padding: 3rem;
+    flex: 0 0 60%;
+    margin-right: 4.5rem; }
+  .hotel-view .user-reviews {
+    background-color: green;
+    flex: 1; }
 
 .logo {
   height: 3.25rem;

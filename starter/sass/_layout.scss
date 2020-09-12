@@ -30,6 +30,28 @@
     background-color: #fff;
     flex: 1;
     //below height is only given for testing purpose, should be removed later. 
-    height: 80rem;
+    // height: 80rem;
     border-bottom: 2px solid var(--color-grey-light-2);
+
+    .detail{
+        display: flex;
+        padding: 4.5rem;
+        background-color: var(--color-grey-light-1);
+        border-bottom: var(--line);
+    }
+
+    .description{
+        font-size: 1.4rem;
+        background-color: #fff;
+        box-shadow: var(--shadow);
+        padding: 3rem;
+        flex: 0 0 60%;
+        margin-right: 4.5rem;
+    }
+
+    .user-reviews{
+        background-color: green;
+        flex: 1;
+    }
+
 }
